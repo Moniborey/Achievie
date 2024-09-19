@@ -29,14 +29,14 @@ export default function HomeNav() {
 
   return (
     <div className='fixed top-0 z-10 bg-white'>
-      <nav className='lg:container px-5 flex justify-between items-center py-4 border-b md:border-b-0'>
+      <nav className='w-screen px-7 flex justify-between items-center py-4 border-b md:border-b-0'>
         <div className='flex gap-1 w-full select-none items-center'>
           <Image
             src={'/logo/icons8-goal-48.png'}
             alt=''
             width={10000}
             height={10000}
-            className='w-[45px] h-[45px]'
+            className='size-[45px]'
           />
           <h1 className='font-bold pointer-events-none text-[#de483a] md:text-2xl text-xl'>Achievie</h1>
         </div>

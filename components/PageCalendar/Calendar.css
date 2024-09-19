@@ -1,0 +1,91 @@
+.rbc-month-header .rbc-header{
+    padding: 5px;
+    font-size: larger;
+    color: rgb(46, 46, 46);
+    border-color: rgba(0, 0, 0, 0.767);
+}
+.rbc-header + .rbc-header{
+    border-left:0;
+}
+.rbc-month-row + .rbc-month-row{
+    border-color: rgba(87, 87, 87, 0.493);
+    /* border-color: black; */
+}
+.rbc-day-bg + .rbc-day-bg{
+    border-color: rgba(87, 87, 87, 0.493);
+    /* border-color: rgb(63, 63, 63) */
+}
+.rbc-toolbar-label{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(46, 46, 46)
+}
+.rbc-toolbar button:active, .rbc-toolbar button.rbc-active{
+    box-shadow: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 32, 32);
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+    background-color: white;
+    color: black;
+}
+.rbc-toolbar button{
+    border:0;
+    color: rgb(97, 97, 97);
+}
+.rbc-toolbar button:hover, .rbc-toolbar button.rbc-active:hover{
+    background-color: white;
+    color: black;
+}
+.rbc-current .rbc-button-link{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: #e02b1b;
+}
+.rbc-month-row .rbc-row-bg .rbc-today{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+.rbc-today{
+    background-color: white;;
+}
+.rbc-off-range-bg{
+    /* background-color: rgb(243, 243, 243); */
+    background-color: white;
+}
+.rbc-month-view,.rbc-time-view{
+    border-color: rgba(0, 0, 0, 0.767);
+    border-width: 1px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-radius: 10px;
+}
+.rbc-event, .rbc-day-slot .rbc-background-event{
+    padding: 5px;
+    background-color: rgb(110, 224, 148);
+    color: #000;
+}
+.rbc-time-header.rbc-overflowing{
+    border-right: 0;
+}
+.rbc-time-content > * + * > *{
+    border-left-color: rgba(87, 87, 87, 0.493);
+}
+.rbc-time-content{
+    border-top-color: black;
+}
+.rbc-time-header-content{
+    border-left-color: rgba(87, 87, 87, 0.493);
+}
+.rbc-time-header-cell .rbc-header{
+    padding: 5px;
+    font-size: larger;
+    color: rgb(46, 46, 46);
+    border:0;
+}
+.rbc-event{
+    padding: 0 0 0 0;
+    background-color: transparent;
+}
+.rbc-row-segment{
+    padding: 0 0 0 0;
+}
